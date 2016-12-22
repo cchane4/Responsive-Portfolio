@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head><!--doesnt show up in browser-->  
+		<title> My Awesome Website </title>  
+		<link href="assets/css/reset.css" rel="stylesheet" type="text/css"/><!--reset sheet to attain control over styling-->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css"/><!--reference links to stylesheets--> 
+	</head>
+	<body>
+		<div id="header"> <!--header section that is uniform across all pages--> 
+			<h1>Chad Chaney</h1>
+			<nav> <!--navigation bar with links to other pages --> 
+				<a href="index.html">About</a>
+				<a href="portfolio.html">Portfolio</a>
+				<a href="contact.html">Contact</a>
+			</nav> 		
+		</div>
+		<div class="mainsection"> 
+				<div id="contact">
+					<h2> Contact </h2>
+					<hr noshade="noshade" id="line2">
+				</div>
+					<form> <!--form field for name,email and message submission--> 
+						Name <br>  
+							<input size="45" type="text" name="Name" value="">
+						<br>
+						<br>
+						Email <br>
+							<input size="45" type="text" name="Email" value="">
+						<br>
+						<br>
+						Message <br>
+							<textarea rows="10" cols="53" name="Message"></textarea>
+						<br>
+						<br>
+						<button type="submit" value="Submit">Submit</button>
+					</form>
+				</div> 
+				<div class="sidebar"> <!--links to my linkedin, stackoverflow and github pages-->
+					<h3> Connect with Me </h3>
+					<hr noshade="noshade" id="line3">
+						<div class="click"> 
+							<a href="https://www.linkedin.com/in/chad-chaney-54bb53126?trk=nav_responsive_tab_profile"> <img src="assets/images/linkedin.png" width="58px"></a>
+							<a href="http://stackoverflow.com/users/6789949/c-chaney" ><img src="assets/images/stackoverflow.png" width="58px"></a>
+							<a href="https://github.com/cchane4"><img src="assets/images/github.png" width="58px"></a>
+						</div>
+				</div> 
+		<div id=footer> 
+		 	<p id="foot">&copy;2016 Copyright Chad Chaney </p> <!--copyright tag in footer section -->
+		</div>
+	</body>
+</html> 
